@@ -14,6 +14,7 @@
       <a href="#certs">Certifications</a>
       <a href="#projects">Projects</a>
       <a href="#scripts">Scripts</a>
+      <a href="#misc">Misc</a>
       <a href="#infographics">Infographics</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -128,6 +129,41 @@ if defined latestFile (
 )
 
 pause
+  </code></pre>
+</section>
+
+<section id="misc">
+  <h2>Miscellaneous Work</h2>
+  <p>This section includes unique or standalone items that showcase my skills but don't fit into a single category.</p>
+  <ul>
+    <li><a href="files/projects/misc work/Tashundre_scripts.docx" target="_blank">Document: Scripts Based on System Conditions</a> — A Word document outlining various scripts and their execution logic under different conditions.</li>
+    <li><a href="files/projects/misc work/automatingAssigment.py" target="_blank">Integer Comparison Tool with Unit Testing (Python)</a> — This Python script compares two user-provided integer values and determines whether the first is greater than, less than, or equal to the second. A unittest test suite with multiple test cases, including edge cases and exception handling for non-numeric input.</li>
+    <li><a href="files/projects/misc work/dailyDoseOfMindfulness.py" target="_blank">Mindfulness Mini-Exercise Program (Python)</a> — This program is a self-care tool designed to support mental well-being through short, daily mindfulness activities.</li>
+  </ul>
+
+  <h3>Preview: Python Script 1</h3>
+  <pre><code>
+# Sample logic from python_project1.py
+import os
+
+def cleanup_logs(folder):
+    for file in os.listdir(folder):
+        if file.endswith(".log"):
+            os.remove(os.path.join(folder, file))
+
+cleanup_logs("./logs")
+  </code></pre>
+
+  <h3>Preview: Python Script 2</h3>
+  <pre><code>
+# Sample logic from python_project2.py
+def check_user_age(age):
+    if age >= 18:
+        return "Access granted"
+    else:
+        return "Access denied"
+
+print(check_user_age(20))
   </code></pre>
 </section>
 
