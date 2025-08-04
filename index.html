@@ -35,6 +35,10 @@
     <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
   </div>
   <p><strong>CompTIA Security+</strong> — Verified digital badge issued in June 2025 via Credly</p>
+
+  <p style="text-align:right; font-size:0.9rem; margin-top:2rem;">
+  <a href="#top" style="text-decoration:none;">↑ Back to Top</a>
+  </p>
 </section>
 
   <section id="projects">
@@ -141,29 +145,45 @@ pause
     <li><a href="files/projects/misc work/dailyDoseOfMindfulness.py" target="_blank">Mindfulness Mini-Exercise Program (Python)</a> — This program is a self-care tool designed to support mental well-being through short, daily mindfulness activities.</li>
   </ul>
 
-  <h3>Preview: Python Script 1</h3>
+  <h3>Preview: Integer Comparison Tool with Unit Testing</h3>
   <pre><code>
-# Sample logic from python_project1.py
-import os
+    import unittest
 
-def cleanup_logs(folder):
-    for file in os.listdir(folder):
-        if file.endswith(".log"):
-            os.remove(os.path.join(folder, file))
+    #compare function
+    def compareValues(X, Y):
+        try:
+            X = int(X)
+            Y = int(Y)
+            #Greater than
+            if X > Y:
+                return str(X) + " > " + str(Y)
+            #less than
+            elif X < Y:
+                return str(X) + " < " + str(Y)
+            #Equal to
+            elif X == Y:
+                return str(X) + " = " + str(Y)
 
-cleanup_logs("./logs")
   </code></pre>
 
-  <h3>Preview: Python Script 2</h3>
+  <h3>Preview: Mindfulness Mini-Exercise Program</h3>
   <pre><code>
-# Sample logic from python_project2.py
-def check_user_age(age):
-    if age >= 18:
-        return "Access granted"
-    else:
-        return "Access denied"
+    import random, time, sys, os
 
-print(check_user_age(20))
+    #typing effect for display
+    def typingPrint(text):
+      for character in text:
+        sys.stdout.write(character)
+        sys.stdout.flush()
+        time.sleep(0.05)
+    
+    def typingInput(text):
+      for character in text:
+        sys.stdout.write(character)
+        sys.stdout.flush()
+        time.sleep(0.05)
+      value = input()  
+      return value
   </code></pre>
 </section>
 
