@@ -183,8 +183,8 @@ footer {
   border-radius: 12px;
   box-shadow: var(--box-shadow);
   padding: 1.5rem;
-  flex: 1 1 250px;
-  max-width: 300px;
+  flex: 1 1 200px;
+  max-width: 500px;
   transition: transform 0.2s ease;
 }
 
