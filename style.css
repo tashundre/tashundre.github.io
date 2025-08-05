@@ -37,12 +37,6 @@ nav a {
     padding: 2rem 1rem;
 }
 
-.card-section.full-width {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .card {
     background: white;
     padding: 1.5rem;
