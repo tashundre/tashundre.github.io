@@ -212,17 +212,3 @@ footer {
     gap: 2rem;
     padding: 2rem 1rem;
 }
-
-.card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 800px;
-    max-width: 100%;
-}
-
-.card h2,
-.card h3 {
-    color: #f25c42;
-}
